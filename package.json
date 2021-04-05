@@ -1,0 +1,43 @@
+{
+  "name": "clockboard",
+  "version": "0.0.1",
+  "description": "A screen full of clocks.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env mode=development",
+    "prod": "webpack --env mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikahimself/clockboard.git"
+  },
+  "keywords": [
+    "world",
+    "clock"
+  ],
+  "author": "mikahimself <mika.laihanen@gmail.com> (https://github.com/mikahimself)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikahimself/clockboard/issues"
+  },
+  "homepage": "https://github.com/mikahimself/clockboard#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
